@@ -1,0 +1,740 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.maindiv{
+    background-color: black;
+    margin:40px;
+    height: auto;
+    width:95%;
+    height:auto;
+    margin-top: -95px;
+}
+.sideblack{
+    height:auto;
+    width:80%;
+    background-color: red;
+    margin:140px;
+}
+.head{
+    background-image: url("headbackground.jpg");
+    height:450px;
+    width:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    height:70px;
+    width: auto;
+    background-color: rgba(66, 59, 59, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:65px;
+    width:120px;
+    height:70px;
+    margin-left: 100px;
+}
+.navright ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+    padding-left: 300px;
+}
+.navright li{
+    padding-left: 15px;
+    font-size: 0.80rem;
+    font-weight: 400; 
+}
+.midheading{
+    padding-top:70px;
+    padding-left: 370px;
+    display: flex;
+}
+#heading2{
+    color:red;
+    margin-left: 10px;
+}
+.headpara{
+    padding-top:60px;
+    padding-left: 170px;
+    padding-right: 170px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color:rgb(255, 4, 4);
+    text-align: center;
+}
+.headbutton{
+    padding-left: 500px;
+}
+#button1{
+    background-color: red;
+    color:white;
+    border:none;
+    margin-top:75px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    font-size: 0.7rem;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.aboutus{
+    background-color: white;
+    height:470px;
+    width: auto;
+}
+.aboutussheading{
+    padding-top: 40px;
+    padding-left: 465px;
+    display: flex;
+}
+#heading4{
+    color:red;
+    margin-left: 10px;
+}
+.dot{
+    height:2px;
+    width:19%;
+    background-color: red;
+    margin-left: 41%;
+    margin-top: 5px;
+}
+.picandabout{
+    display: flex;
+}
+.picandabout{
+    height: 300px;
+    width:84%;
+    margin-left: 88px;
+    margin-top: 30px;
+}
+.girlimage{
+    height:300px;
+    width:32%;
+    background-image: url("aboutusiamge.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gap{
+    height:210px;
+    width:32%;
+}
+.sociallogo{
+    height:90px;
+    width:auto; 
+    background-color: rgba(24, 23, 23, 0.7);   
+}
+.sociallogo p{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color:white;
+    padding-top: 5px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 18px;;
+}
+.logos i{
+    color:rgb(217, 217, 63);
+}
+.aboutright{
+    height:300px;
+    width:60%;
+    margin-left:3%;
+}
+.aboutright p{
+    font-size: 0.8rem;
+}
+.aboutright button{
+    padding-top: 08px;
+    padding-bottom: 08px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    background-color: rgb(255, 37, 37);
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+
+
+.middlehand{
+    height:240px;
+    width:auto;
+    background-image: url("handimage.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.blackbackground{
+    height:240px;
+    width:auto;
+    background-color: rgba(2, 2, 2,0.4);
+    text-align: center;
+}
+.blackbackground p{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-top: 55px;
+}
+.blackbackground i{
+    font-size: 3.5rem;
+    color:white;
+}
+
+
+.ourservice{
+    background-color: white;
+    height:470px;
+    width:auto;
+}
+.serviceheading{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 40%;
+    display: flex;
+}
+.dot2{
+    height:3px;
+    width:26%;
+    background-color: red;
+    margin-left: 38%;
+    margin-top: 6px;
+}
+.upperbox{
+    height:140px;
+    width:90%;
+    margin-left: 5%;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lowerbox{
+    height:140px;
+    width:90%;
+    margin-left: 5%;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxes{
+    height:140px;
+    width:26%; 
+}
+.midlogo{
+    text-align: center;
+    padding-top: 20px;
+}
+.midlogo i{
+    font-size: 1.6rem;
+    color:red;
+}
+.midlogo h5{
+    padding-top: 8px;
+}
+.midlogo p{
+    font-size: 0.7rem;
+    margin-top: 13px;;
+}
+
+
+
+.myskill{
+    height:430px;
+    width:auto;
+    background-color:rgb(236, 234, 230);
+}
+.myskillheading{
+    text-align: center;
+    display: flex;
+    margin-left: 45%;
+    padding-top:25px;
+}
+.dot3{
+    height:2px;
+    width:17%;
+    margin-left: 43%;
+    background-color: red;
+}
+.flexmyskill{
+    height:320px;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.peopleabout{
+    height:320px;
+    width:43%;
+}
+.aregood{
+    height:320px;
+    width:45%;
+}
+.aregood p{
+    margin-top: 35px;
+    font-size: 0.85rem;
+}
+.peopleabout p{
+    margin-top: 45px;
+    font-size: 0.85rem;
+}
+.webdot{
+    margin-top: 6px;
+    height:6px;
+    width:90%;
+    border:3px solid black;
+    background-color: red;
+    border-radius: 9px;
+}
+
+
+
+
+.laptopmiddle{
+    height:220px;
+    width: auto;
+    background-image: url("laptopmiddle.webp");
+}
+.alldata{
+    height:220px;
+    width:auto;
+    background-color: rgba(5, 5, 5,0.5);
+    display: flex;
+    justify-content: space-evenly;
+}
+.alldatabox{
+    height:120px;
+    width:16%;
+   margin-top: 50px;
+    text-align: center;
+    color:white;
+   
+}
+.alldatabox i{
+    border:2px solid white;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+
+
+
+.portfolio{
+    height:490px;
+    width:auto;
+    background-color: white;
+}
+.portfolioheading{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 38%;
+}
+.dot5{
+    height:3px;
+    width:27%;
+    margin-left: 37%;
+    background-color: red;
+}
+.portfolionav{
+    height:3px;
+    width:auto;
+}
+.portfolionav ul{
+    list-style-type:none;
+    display: flex;
+    padding-left: 34%;
+    margin-top: 18px;
+}
+.portfolionav li{
+    margin-left:25px;
+    font-size: 0.8rem;
+}
+
+.portfolioimage{
+    height:160px;
+    width:auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolioimage1{
+    height:160px;
+    width:auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolioimagesize{
+    height:160px;
+    width:20%;
+    background-color: blue;
+}
+
+.iamge1{
+    background-image: url("iamge1.avif");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.iamge2{
+    background-image: url("image2.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.iamge3{
+    background-image: url("image3.avif");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.iamge4{
+    background-image: url("image4.avif");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.iamge5{
+    background-image: url("image5.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.iamge6{
+    background-image: url("image6.webp");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.iamge7{
+    background-image: url("image7.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.iamge8{
+    background-image: url("image8.avif");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.myteam{
+    height:290px;
+    width:auto;
+    background-color: rgb(235, 225, 225);
+}
+.myteamheading{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 45%;
+}
+.dot6{
+    height:2px;
+    width:13%;
+    margin-left: 44%;
+    background-color: red;
+}
+
+.myteamimage{
+    height:210px;
+    width:auto;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.myteamimagesize{
+    height:210px;
+    width:22%;
+    background-color: blue;
+}
+.myteam1{
+    background-image: url("myteam1.webp");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.myteam2{
+    background-image: url("myteam2.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.myteam3{
+    background-image: url("myteam3.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.myteam4{
+    background-image: url("myteam4.avif");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.laptop2{
+    height:220px;
+    width:auto;
+    background-image:url("laptopimage2.avif");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.laptop2black{
+    height:220px;
+    width:auto;
+    background-color: rgba(14, 13, 13,0.5);
+}
+.imagename{
+    height:100px;
+    width:auto;
+    padding-top: 20px; 
+}
+.laptopiage{
+    height: 68px;
+    width:68px;
+    margin-left: 47%;
+    background-image: url("circleimage.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    border: 1px solid transparent;
+    border-radius: 42px;
+}
+.imagename p{
+    font-size: 0.9rem;
+    font-weight: 800;
+    color:white;
+    margin-left: 45%;
+}
+.laptoppara{
+    height:90px;
+    width:40%;
+    margin-left: 30%;
+    padding-top: 10px;
+}
+.laptoppara p{
+    color:white;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+.latestblog{
+    height:540px;
+    width:auto;
+    background-color: white;
+}
+.latestblogheading{
+    padding-top: 15px;
+    margin-left: 43%;
+    display: flex;
+}
+.dot8{
+    height:3px;
+    width:19%;
+    background-color: red;
+    margin-left: 41%;
+}
+.threeboxes{
+    margin-top: 35px;
+    height:410px;
+    width:90%;
+    margin-left: 5%;
+    display: flex;
+}
+.innerbox1{
+    margin-left:4%;
+    height:410px;
+    width:29%;
+    border:1px solid black;
+}
+.innerbox2{
+    margin-left:2%;
+    height:410px;
+    width:29%;
+    border:1px solid black;
+}
+.innerbox3{
+    margin-left:2%;
+    height:410px;
+    width:29%;
+    border:1px solid black;
+}
+.innerimage1{
+    height:55%;
+    width:auto;
+    background-image: url("webdesign1.avif");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.innerimage2{
+    height:55%;
+    width:auto;
+    background-image: url("webdesign2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.innerimage3{
+    height:55%;
+    width:auto;
+    background-image: url("webdesign3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#innerh4{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.dateandtime{
+    display: flex;
+    margin-top: 6px;
+}
+.dateandtime p{
+    font-style: italic;
+    margin-left: 5px;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.dateandtime  i{
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+#innerpara1{
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: left;
+    margin-top:12px;
+    margin-left: 10px;
+}
+#button2{
+    color:white;
+    background-color: black;
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-style: italic;
+    padding: 8px 6px;
+    margin-top:12px;
+    margin-left: 10px;
+}
+
+
+.lastdiv{
+    height:400px;
+    width:auto;
+    background-image: url("lastimage.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lastdivblack{
+    height:400px;
+    width: auto;
+    background-color: rgba(5, 4, 4,0.5);
+}
+.contactuheading{
+    display: flex;
+    margin-left: 43%;
+    padding-top: 20px;
+}
+#heading5{
+    color: white;
+}
+.lastdot{
+    height:2px;
+    width:21%;
+    margin-left: 42%;
+    background-color: red;
+}
+.lasttable{
+    height:210px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.inputflex{
+    display:flex;
+}
+input[type=text]{
+    width:48%;
+    background-color: transparent;
+    padding:5px;
+    border:1px solid white;
+}
+::placeholder{
+    color:white;
+    padding-left: 10px;
+}
+input[type=email]{
+    margin-left: 2%;
+    width:48%;
+    background-color: transparent;
+    padding:5px;
+    border:1px solid white;
+}
+input[type=message]{
+    width:99%;
+    height:140px;
+    margin-top: 23px;
+    background-color: transparent;
+    padding:5px;
+    border:1px solid white;
+}
+#button3{
+    background-color: red;
+    color:white;
+    font-size: 0.7rem;
+    font-weight: 300;
+    padding:8px;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+
+
+
+.footer{
+    height:55px;
+    width:auto;
+    background-color: rgb(55, 55, 55); 
+}
+.allitems{
+    height:55px;
+    width:auto;
+    display: flex;
+}
+.footerlogo{
+    height:55px;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 8%;
+    color:white;
+}
+.copyright{
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 50%;
+}
+.copyright p{
+    color:white;
+    font-weight: 500;
+    font-size: 0.6rem;
+    font-style: italic;
+}
